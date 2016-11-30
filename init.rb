@@ -16,7 +16,7 @@ Redmine::Plugin.register :redmine_issue_reminder do
   version '1.0.0'
   author_url 'https://jkraemer.net/'
 
-  requires_redmine version_or_higher: '2.6.0'
+  requires_redmine version_or_higher: '2.5.2'
 
   # in case this plugin is added before running the first migrations,
   # issue_statuses table doesn't exist, therefore the rescue
